@@ -1,0 +1,19 @@
+.. highlight:: rst
+
+========
+Software
+========
+
+PC / Linux
+
+PC / Windows
+
+Apple / OS X
+
+Apple OS X (Swift?)
+
+Mobile Android
+
+Mobile iOS
+
+
