@@ -1,0 +1,146 @@
+.. highlight:: rst
+
+========
+Listings
+========
+
+--------
+Browsing
+--------
+
+Both offers and requests can be browsed with or without search filters. 
+If filters are used, the criteria for filtering can include:
+
+* Posts by a specific profile 
+* Posts containing specified keyword(s) 
+* Posts by profiles with specified ratings
+* Tasks in a specific price range 
+* Tasks in a specific category (e.g. development, writing, research)
+
+-------------------
+Keyword Suggestions
+-------------------
+
+Keywords from task offers and requests are recorded and saved locally, 
+and used for keyword suggestion when posting a new task offer or 
+request. This helps standardize keywords by promoting common 
+terminology.
+
+.. image:: categories.png
+
+*Clients may opt-in to irregular broadcasting of keyword lists to the 
+network for the benefit of newly installed clients*
+
+-------------
+Posting Tasks
+-------------
+
+Tasks are separated into two types – *offers* and *requests*.
+
+Both offers and requests can contain optional information which helps 
+potential clients be aware of the required terms, licenses and payment 
+arrangements for a task before spending the effort to respond to the 
+offer.
+
+------
+Offers
+------
+
+Offers are made by service providers. As the offer itself is not a 
+binding contract, it may be as broad or specific in detail as desired. 
+Offers are broadcast to the offer channel.
+
+An example of an offer might be a 3D graphics designer offering their 
+services to the community for a fee. The offer might include samples of 
+their work, as well as their requested pay rate.
+
+--------
+Requests
+--------
+
+Requests are made by clients seeking task completion. As the request 
+itself is not a binding contract, it may be as broad or specific in 
+detail as desired. The more detailed a request is, the more information 
+a service provider has to go on when judging whether or not the task is 
+right for them.
+
+*If the client is unsure of which contract template or license to 
+choose, or what other details should be included, it is best to leave 
+them out in the initial request. These details can be discussed with the 
+service provider during negotiation, later adding them to the final 
+agreement.*
+
+----------
+Categories
+----------
+
+Whether offers or requests, tasks fall into selected categories. Many 
+categories have sub-categories for more specific organization. Some of 
+these categories and sub-categories might include:
+
+
++-----------------------------+----------------------------------+
+| Writing > Blogs > Science   | Editing > Proof-reading          |
++-----------------------------+----------------------------------+
+| Design > Desktop Publishing | Voice acting > Female > Irish    |
+| Development > Python        | Data entry > Email > Invoices    |
++-----------------------------+----------------------------------+
+| Video editing > Mastering   | Research > Security > Pentesting |
++-----------------------------+----------------------------------+
+
+Categories and sub-categories have 2-digit hexadecimal identifiers that 
+are used when referencing them on the network. The Ids are compounded in 
+a tree format for easy processing.
+
+Writing / Editing    A1
+   ∟ Blogs / Articles   22
+      ∟ Science            CD
+
+*Example category ID of A122CD*
+
+-----------------
+Size Restrictions
+-----------------
+
+Task titles and body can contain Unicode characters, but are limited in 
+length to 640 and 6,400 bytes respectively. This cap attempts to provide 
+the best user experience while limiting unnecessary spam, network 
+traffic, and local CPU usage for proof-of-work calculations.
+
+As the taskhive and bitmessage projects mature, these restriction may be 
+removed or modified to better serve the network.
+
+--------
+Deadline
+--------
+
+This deadline is for receipt of deliverables upon receipt of payment 
+from the client, and is EPOCH UTC. This is not to be confused with the 
+expiry of the task offer/request, which is a maximum of 30 days from 
+initial posting, whereas a task deadline could be infinite.
+
+-------
+Payment
+-------
+
+There are two payment related fields in a task – base currency and 
+payment method. The base currency decides the fee that should be paid to 
+a client for their services. The payment methods are multiple options 
+for receiving said fee, and can range from bitcoin to bank wire, 
+depending on the task, country, level of privacy and risk, etc.
+
+----
+Data
+----
+
+Task requests and offers have an identical JSON array format, differing 
+only in task_type.
+
+.. literalinclude:: task_data1.json
+   :language: json 
+
+For task terminate requests, only the bare verifiable identifying data 
+is needed.
+
+.. literalinclude:: task_data2.json
+   :language: json
