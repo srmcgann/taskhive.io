@@ -12,12 +12,17 @@
 		url('UnGraphicBold.ttf')  format('truetype');
 }
 
+html{
+	overflow:hidden;
+}
+
 html,body{
 	margin:0;
 	background:#460e55;
 	color:white;
 	font-family:UnGraphic;
 	overflow-X:hidden;
+	overflow-Y:visible;
 }
 
 .patternDiv{
@@ -79,6 +84,7 @@ html,body{
 
 .downloadButtonDiv{
 	position:absolute;
+	z-index:2;
 	top:50%;
 	transform:translateY(15px);
 	width:90%;
