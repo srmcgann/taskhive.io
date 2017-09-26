@@ -242,3 +242,7 @@ hr{
 .clear{
 	clear:both;
 }
+
+button:focus {
+	outline:0;
+}
