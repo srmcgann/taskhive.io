@@ -12,7 +12,6 @@
 		url('UnGraphicBold.ttf')  format('truetype');
 }
 
-@import url('https://fonts.googleapis.com/css?family=Asap:600,700|Lato');
 html{
 	overflow:hidden;
 }
@@ -21,7 +20,7 @@ html,body{
 	margin:0;
 	background:#460e55;
 	color:white;
-	font-family:'Lato';
+	font-family:UnGraphic;
 	overflow-X:hidden;
 	overflow-Y:visible;
 }
@@ -53,8 +52,7 @@ html,body{
 	right:0;
 	transform:translateY(-170px);
 	width:90%;
-	font-family:'Asap';
-	font-weight: 600;
+	font-family:UnGraphicBold;
 	font-size:6.5em;
 	text-align:center;
 }
@@ -224,13 +222,12 @@ canvas{
 }
 
 .bold{
-	font-family:'Asap';
-	font-weight: 600;
+	font-family:unGraphicBold;
 	font-size:3vw;
 }
 
 .normal{
-	font-family:'Lato';
+	font-family:unGraphic;
 	font-size:2vw;	
 }
 
