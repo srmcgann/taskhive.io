@@ -1,15 +1,15 @@
 @font-face {
-	font-family: 'UnGraphic';
-	src:url('UnGraphic.woff2') format('woff2'),
-		url('UnGraphic.woff') format('woff'),
-		url('UnGraphic.ttf')  format('truetype');
+	font-family: 'Source';
+	src:url('sourcesanspro-regular-webfont.woff2') format('woff2'),
+		url('sourcesanspro-regular-webfont.woff') format('woff'),
+		url('sourcesanspro-regular-webfont.ttf')  format('truetype');
 }
 
 @font-face {
-	font-family: 'UnGraphicBold';
-	src:url('UnGraphicBold.woff2') format('woff2'),
-		url('UnGraphicBold.woff') format('woff'),
-		url('UnGraphicBold.ttf')  format('truetype');
+	font-family: 'SourceBold';
+	src:url('sourcesanspro-bold-webfont.woff2') format('woff2'),
+		url('sourcesanspro-bold-webfont.woff') format('woff'),
+		url('sourcesanspro-bold-webfont.ttf')  format('truetype');
 }
 
 html{
@@ -20,7 +20,7 @@ html,body{
 	margin:0;
 	background:#460e55;
 	color:white;
-	font-family:UnGraphic;
+	font-family:Source;
 	overflow-X:hidden;
 	overflow-Y:visible;
 }
@@ -52,7 +52,7 @@ html,body{
 	right:0;
 	transform:translateY(-170px);
 	width:90%;
-	font-family:UnGraphicBold;
+	font-family:SourceBold;
 	font-size:6.5em;
 	text-align:center;
 }
@@ -222,12 +222,12 @@ canvas{
 }
 
 .bold{
-	font-family:unGraphicBold;
+	font-family:SourceBold;
 	font-size:3vw;
 }
 
 .normal{
-	font-family:unGraphic;
+	font-family:Source;
 	font-size:2vw;	
 }
 
