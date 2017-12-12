@@ -250,8 +250,8 @@ window.smoothScroll = function(target) {
     } while (target = target.offsetParent);
 
     scroll = function(c, a, b, i) {
-        i++; if (i > 30) return;
-        c.scrollTop = a + (b - a) / 30 * i;
+        i++; if (i > 10) return;
+        c.scrollTop = a + (b - a) / 10 * i;
         setTimeout(function(){ scroll(c, a, b, i); }, 20);
     }
     // start scrolling
