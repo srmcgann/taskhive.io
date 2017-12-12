@@ -116,7 +116,10 @@ html,body{
 	background:url(down-arrow-white.svg) no-repeat center;
 	background-size:50px;
 }
-
+.desc {
+	position:absolute;
+	top:60%;
+}
 #getAnythingDoneDiv{
 	position:absolute;
 	top:50%;
