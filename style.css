@@ -167,7 +167,7 @@ html,body{
 	position:absolute;
 	z-index:11;
 	top:50%;
-	transform:translateY(3500px);
+	transform:translateY(4000px);
 	width:100%;
 }
 
@@ -179,6 +179,29 @@ html,body{
 #infoSharing{
 	background:rgba(55,26,64,1);
 	width:100%;
+}
+
+.readyToTry{
+	position:absolute;
+	top:50%;
+	transform:translateY(3600px);
+	width:100%;
+  text-align:center;
+}
+
+.readyToTryText{
+  font-size:4em;
+  color:lime;
+}
+
+.readyToTryText2{
+  font-size:2em;
+}
+
+.backToTop{
+  font-size:1.5em;
+  color:#aa1;
+  text-decoration:none;
 }
 
 #pointAnimationDiv{
