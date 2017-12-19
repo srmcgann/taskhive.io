@@ -97,7 +97,7 @@ html,body{
 	border:none;
 	border-radius:15px;
 	color:#fff;
-	padding-left:2.15em;
+	padding-left:2.25em;
 	padding-right:.8em;
 	margin-left:.3em;
 	margin-right:.3em;
@@ -184,9 +184,12 @@ html,body{
 .readyToTry{
 	position:absolute;
 	top:50%;
-	transform:translateY(3600px);
+	transform:translateY(3550px);
 	width:100%;
   text-align:center;
+  background: rgba(0,255,255,.7);
+  padding-top:80px;
+  padding-bottom:80px;
 }
 
 .readyToTryText{
