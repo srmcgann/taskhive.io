@@ -36,15 +36,15 @@ function init(){
 		v[0].c.style.height="500px";
 		v[0].c.width = v[0].c.clientWidth;
 		v[0].c.height = v[0].c.clientHeight;
-		v[1].c.style.height="25vw";
+		//v[1].c.style.height="25vw";
 		v[1].vx=document.getElementsByClassName("rightDiv")[0].clientWidth/951.5;
-		v[1].vy=document.getElementsByClassName("rightDiv")[0].clientHeight/567*1.42;
+		v[1].vy=document.getElementsByClassName("rightDiv")[0].clientHeight/567*1.42/2;
 		v[1].c.width = v[1].c.clientWidth;
 		v[1].c.height = v[1].c.clientHeight;
 	}, true);
 	v[1].mapImg.addEventListener("load",function(){
 		v[1].vx=document.getElementsByClassName("rightDiv")[0].clientWidth/951.5;
-		v[1].vy=document.getElementsByClassName("rightDiv")[0].clientHeight/567*1.42;
+		v[1].vy=document.getElementsByClassName("rightDiv")[0].clientHeight/567*1.42/2;
 		v[1].c.width = v[1].c.clientWidth;
 		v[1].c.height = v[1].c.clientHeight;
 	});
@@ -60,12 +60,12 @@ function init(){
 		}
 	}
 	window.addEventListener("scroll",startStopAnimations);
-	v[1].c.style.height="500px";
+	v[1].c.style.height="250px";
 	v[1].c.width = v[1].c.clientWidth;
 	v[1].c.height = v[1].c.clientHeight;
 	v[1].vx=document.getElementsByClassName("rightDiv")[0].clientWidth/951.5;
-	v[1].vy=document.getElementsByClassName("rightDiv")[0].clientHeight/567*1.42;
-	v[1].c.style.height="25vw";
+	v[1].vy=document.getElementsByClassName("rightDiv")[0].clientHeight/567*1.42/2;
+	v[1].c.style.height="12.5vw";
 	startStopAnimations();
 }
 

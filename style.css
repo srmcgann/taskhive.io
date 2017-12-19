@@ -29,7 +29,7 @@ html,body{
 	position:absolute;
 	z-index:10;
 	width:100%;
-	height:380vw;
+	height:320vw;
 	background:url(taskhive-pattern-white.png) repeat top center;
 	pointer-events: none;
 	opacity:.03;
@@ -123,51 +123,44 @@ html,body{
 }
 #getAnythingDoneDiv{
 	position:absolute;
-	top:50%;
 	transform:translateY(600px);
 	width:100%;
 }
 
 #noFees{
 	position:absolute;
-	top:50%;
-	transform:translateY(1200px);
+	transform:translateY(1000px);
 	width:100%;
 }
 
 #sellYourServices{
 	position:absolute;
-	top:50%;
-	transform:translateY(1600px);
+	transform:translateY(1400px);
 	width:100%;
 }
 
 #paymentFlexibility{
 	position:absolute;
-	top:50%;
-	transform:translateY(2100px);
+	transform:translateY(600px);
 	width:100%;
 }
 
 #strongGuarantee{
 	position:absolute;
-	top:50%;
-	transform:translateY(2600px);
+	transform:translateY(1000px);
 	width:100%;
 }
 
 #noAds{
 	position:absolute;
-	top:50%;
-	transform:translateY(3100px);
+	transform:translateY(1400px);
 	width:100%;
 }
 
 #whyPrivacy{
 	position:absolute;
 	z-index:11;
-	top:50%;
-	transform:translateY(4000px);
+	transform:translateY(2600px);
 	width:100%;
 }
 
@@ -184,7 +177,7 @@ html,body{
 .readyToTry{
 	position:absolute;
 	top:50%;
-	transform:translateY(3550px);
+	transform:translateY(1680px);
 	width:100%;
   text-align:center;
   background: rgba(0,255,255,.45);
@@ -235,6 +228,7 @@ html,body{
 .mapCanvas{
 	width:100%;
 	height:400px;
+  margin-top:-1vw;
 }
 
 canvas{
@@ -243,17 +237,18 @@ canvas{
 
 #noscript_map{
 	width:100%;
-	height:25vw;
+	height:12.5vw;
+  margin-top:-1vw;
 }
 
 .bold{
 	font-family:SourceBold;
-	font-size:3vw;
+	font-size:2.2vw;
 }
 
 .normal{
 	font-family:Source;
-	font-size:2vw;	
+	font-size:1.2vw;	
 }
 
 img{
@@ -270,4 +265,17 @@ hr{
 
 button:focus {
 	outline:0;
+}
+
+.leftColumn{
+  position:absolute;
+  width:50vw;
+  top:22vw;
+}
+
+.rightColumn{
+  position:absolute;
+  width:50vw;
+  left:50%;
+  top:22vw;
 }
