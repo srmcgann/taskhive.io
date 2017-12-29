@@ -37,7 +37,7 @@ html,body{
 
 .headerImage{
 	position:absolute;
-	top:50%;
+	top:40%;
 	right:300px;
 	transform:translateY(-175px);
 	height:100vh;
@@ -48,7 +48,7 @@ html,body{
 
 .headerText{
 	position:absolute;
-	top:50%;
+	top:40%;
 	right:0;
 	transform:translateY(-170px);
 	width:90%;
@@ -59,7 +59,7 @@ html,body{
 
 .headerText2{
 	position:absolute;
-	top:50%;
+	top:40%;
 	transform:translateY(-65px);
 	font-size:1.6em;
 	width:90%;
@@ -69,7 +69,7 @@ html,body{
 
 .headerText3{
 	position:absolute;
-	top:50%;
+	top:40%;
 	right:165px;
 	width:90%;
 	font-size:1em;
@@ -85,7 +85,7 @@ html,body{
 .downloadButtonDiv{
 	position:absolute;
 	z-index:2;
-	top:50%;
+	top:40%;
 	transform:translateY(15px);
 	width:90%;
 	right:-80px;
@@ -109,7 +109,7 @@ html,body{
 
 .arrow{
 	position:absolute;
-	top:30%;
+	top:35%;
 	transform:translateY(360px);
 	width:100%;
 	height:100px;
@@ -160,7 +160,7 @@ html,body{
 #whyPrivacy{
 	position:absolute;
 	z-index:11;
-	transform:translateY(2240px);
+	transform:translateY(2640px);
 	width:100%;
 }
 
@@ -177,7 +177,7 @@ html,body{
 .readyToTry{
 	position:absolute;
 	top:50%;
-	transform:translateY(1400px);
+	transform:translateY(1640px);
 	width:100%;
   text-align:center;
   background: rgba(0,255,255,.45);
@@ -270,12 +270,12 @@ button:focus {
 .leftColumn{
   position:absolute;
   width:55vw;
-  top:22vw;
+  top:30vw;
 }
 
 .rightColumn{
   position:absolute;
   width:50vw;
   left:56%;
-  top:22vw;
+  top:30vw;
 }
