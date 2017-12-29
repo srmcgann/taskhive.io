@@ -160,7 +160,8 @@ html,body{
 #whyPrivacy{
 	position:absolute;
 	z-index:11;
-	transform:translateY(2500px);
+  top:10vw;
+	transform:translateY(2190px);
 	width:100%;
 }
 
@@ -176,8 +177,8 @@ html,body{
 
 .readyToTry{
 	position:absolute;
-	top:50%;
-	transform:translateY(1550px);
+  top:10vw;
+	transform:translateY(1700px);
 	width:100%;
   text-align:center;
   background: rgba(0,255,255,.45);
@@ -270,12 +271,22 @@ button:focus {
 .leftColumn{
   position:absolute;
   width:55vw;
-  top:30vw;
+  top:400px;
 }
 
 .rightColumn{
   position:absolute;
   width:50vw;
   left:56%;
-  top:30vw;
+  top:400px;
+}
+.warningDiv{
+  width:400px;
+  text-align:justify;
+  border-radius:10px;
+  padding:5px;
+  background:rgba(30,10,10,.3);
+  margin-left:auto;
+  margin-right:auto;
+	font-size:.7em;
 }
